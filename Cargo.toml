@@ -1,0 +1,14 @@
+[package]
+name = "AdventOfCode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "day1_part1"
+path = "Day_1/part_1.rs"
+
+[[bin]]
+name = "day1_part2"
+path = "Day_1/part_2.rs"
