@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 regex = "1"
+itertools = "0.13.0"
 
 [[bin]]
 name = "day1_part1"
@@ -39,6 +40,14 @@ name = "day4_part2"
 path = "Day_4/part_2.rs"
 
 [[bin]]
+name = "day5_part1"
+path = "Day_5/part_1.rs"
+
+[[bin]]
+name = "day5_part2"
+path = "Day_5/part_2.rs"
+
+[[bin]]
 name = "day6_part1"
 path = "Day_6/part_1.rs"
 
@@ -53,6 +62,14 @@ path = "Day_7/part_1.rs"
 [[bin]]
 name = "day7_part2"
 path = "Day_7/part_2.rs"
+
+[[bin]]
+name = "day8_part1"
+path = "Day_8/part_1.rs"
+
+[[bin]]
+name = "day8part2"
+path = "Day_8/part_2.rs"
 
 [[bin]]
 name = "day9_part1"
